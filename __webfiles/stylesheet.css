@@ -1,0 +1,445 @@
+/* general */
+
+* {
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    vertical-align: top;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #337ABE;
+}
+
+a:visited:not(:hover) {
+    color: black;
+}
+
+div {
+    display: inline-block;
+    margin: auto;
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.8em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+h3 {
+    font-size: 1.6em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+h4 {
+    font-size: 1.45em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+h5 {
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 0px 5px;
+}
+
+table {
+    font-size: 1.2em;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+.blue {
+    color: #337ABE;
+}
+
+
+
+/* miscellanous */
+
+/* logo at the top of each page */
+
+#logo {
+    height: 250px;
+    width: 100%;
+}
+
+#logo img {
+    height: 250px;
+    margin-right: 40%;
+}
+
+/* navigation bar on each page */
+
+#navbar {
+    background-color: white;
+    margin: auto;
+}
+
+.navbar_elements {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px 13px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#active { /*current navbar page*/
+    background-color: #337ABE;
+    color: white;
+}
+
+#active a:visited {
+    background-color: #337ABE;
+    color: white;
+}
+
+/* class for the div's with each page's content */
+
+.content {
+    width: 1200px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    text-align: left;
+}
+
+/* page menu */
+
+#current { /*current page menu page*/
+    color: #74B9FC;
+}
+
+#page_menu {
+    background-color: #2365A5;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    margin-right: 30px;
+}
+
+#page_menu p {
+    color: #74B9FC;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#page_menu ul {
+    background-color:#337ABE;
+    list-style: none;
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+#page_menu li {
+    text-align: left;
+    padding: 10px 3px;
+    text-decoration: underline;
+}
+
+#page_menu a {
+    color: white;
+}
+
+#page_menu p a {
+    color: #74B9FC;
+}
+
+#page_menu a:hover {
+    color: #74B9FC;
+}
+
+#page_menu span {
+    color: #74B9FC;
+    font-size: 0.9em;
+}
+
+    
+
+/* home.html */
+
+#home img {
+    height: 340px;
+    margin: 40px;
+}
+
+
+
+/* about-us.html */
+
+#about-us {
+    width: 75%;
+}
+
+/* board-of-directors.html */
+
+#board_of_directors {
+    width: 75%;
+}
+
+#board_of_directors h3 {
+    margin-bottom: -10px;
+}
+
+/* letter-from-the-chairman.html */
+
+#chairman_letter {    
+    width: 75%;
+}
+
+#chairman_letter img {
+    width: 40%;
+    float: right;
+    margin: 30px 0px 20px 40px;
+}
+
+#chairman_letter p {
+    text-align: justify;
+}
+
+
+
+/* our-business.html */
+
+#our_business {
+    width: 75%;
+}
+
+#our_business img {
+    float: left;
+    margin-left: 40px;
+}
+
+#our_business ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 1.3em;
+    margin: 0px;
+}
+
+#our_business li {
+    text-align: left;
+}
+
+#our_business blockquote {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#property_week img {
+    height: 70px;
+    float: right;
+    margin-top: -30px;
+}
+
+#savills img {
+    height: 100px;
+    float: right;
+    margin-top: 30px;
+}
+
+#savills p {
+    width: 81.5%;
+    display: inline-block;
+}
+
+
+
+/* latest-news */
+
+#latest_news blockquote {
+    font-weight: bold;
+}
+
+
+
+/* investor-centre.html */
+
+#investor_centre {
+    width: 75%;
+}
+
+#investor_centre img {
+    width: 25%;
+    margin-left: 3%;
+}
+
+#investor_centre p {
+    width: 70%;
+    display: inline-block;
+}
+
+/* investor-relations.html */
+
+#information_memorandum {
+    width: 75%;
+}
+
+#information_memorandum h2 {
+    margin-bottom: 0px;
+}
+
+#contents {
+    list-style: none;
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#contents li {
+    text-align: left;
+    padding: 5px 0px;
+}
+
+#information_memorandum a {
+    text-decoration: underline;
+    color: #337ABE;
+}
+
+#information_memorandum table {
+    margin-bottom: 20px;
+}
+
+#information_memorandum td {
+    padding: 10px 30px;
+}
+
+#information_memorandum blockquote {
+    font-weight: bold;
+}
+
+#david_lloyd_img {
+    width: 40%;
+    float: right;
+    margin: 30px 0px 20px 40px;
+}
+
+.map_ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 1.3em;
+    margin: 0px;
+}
+
+.map_ul li {
+    text-align: left;
+}
+
+#map_img {
+    float: left;
+    margin-left: 40px;
+}
+
+.target_requirements {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 5px 0px;
+}
+
+.directorships {
+    list-style: none;
+    padding-left: 20%;
+}
+
+.directorships li {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 5px 0px;
+}
+
+/* investor-presentations.html */
+
+#investor_presentations {
+    width: 50%;
+}
+
+#investor_presentations p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#investor_presentations ul {
+    padding-left: 5px;
+}
+
+#investor_presentations li {
+    text-align: left;
+    list-style: none;
+    padding: 5px 0px;
+}
+
+#investor_presentations a {
+    color: #337ABE;
+}
+
+/* shareholders.html */
+
+#shareholders {
+    width: 75%;
+}
+
+/* aim-rule-26-compliance.html */
+
+#aim_compliance {
+    width: 75%;
+}
+
+#aim_compliance h2 {
+    margin-bottom: 0px;
+}
+
+#aim_compliance span {
+    font-size: 0.85em;
+}
+
+#aim_compliance li {
+    text-align:left;
+    padding: 5px 0px;
+}
+
+/* articles-of-association.html */
+
+#articles_of_association {
+    width: 75%;
+}
+
+#articles_of_association p {
+    font-size: 1em;
+}
+
+#articles_of_association a {
+    color: #337ABE;
+}
+
+
+
+/* contact-us.html */
+
+#contact img {
+    width: 20%;
+    float: left;
+    margin-right: 40px;
+}
