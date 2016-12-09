@@ -1,13 +1,62 @@
 /* general */
 
 * {
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: "Muli", Arial, sans-serif;
     text-align: center;
     vertical-align: top;
 }
 
 body {
     background-color: white;
+    margin: 0px;
+}
+
+.white {
+    background-color: white;
+    width: 100%;
+}
+
+.grey {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.light_blue {
+    background-color: #00B0E1;
+    width: 100%;
+}
+
+.light_blue_t {
+    color: #00B0E1;
+}
+
+.dark_blue {
+    background-color: #1D4F79;
+    width: 100%;
+}
+
+.dark_blue_t {
+    color: #1D4F79;
+}
+
+.large {
+    font-size: 25pt;
+}
+
+.medium {
+    font-size: 16pt;
+}
+
+.small {
+    font-size: 13pt;
+}
+
+.container {
+    width: 80%;
+}
+
+.circle {
+    border-radius: 100%;
 }
 
 a {
@@ -16,7 +65,7 @@ a {
 }
 
 a:hover {
-    color: #337ABE;
+    color: #00B0E1;
 }
 
 a:visited:not(:hover) {
@@ -34,7 +83,7 @@ img {
     margin: auto;
 }
 
-h2 {
+/*h2 {
     font-size: 1.8em;
     text-align: left;
     padding-left: 5px;
@@ -75,41 +124,36 @@ td {
 
 .blue {
     color: #337ABE;
-}
+}*/
 
 
 
 /* miscellanous */
 
-/* logo at the top of each page */
+/* logo and navbar at the top of each page */
 
 #logo {
-    height: 250px;
-    width: 100%;
+    background-color: white;
+    margin-right: 25%;
 }
 
 #logo img {
-    height: 250px;
-    margin-right: 40%;
+    height: 150px;
 }
 
-/* navigation bar on each page */
-
 #navbar {
-    background-color: white;
-    margin: auto;
+    margin-top: 40px;
 }
 
 .navbar_elements {
     display: inline-block;
-    border-radius: 5px;
     padding: 6px 13px;
-    font-size: 1.1em;
+    font-size: 20px;
     font-weight: bold;
 }
 
 #active { /*current navbar page*/
-    background-color: #337ABE;
+    background-color: #00B0E1;
     color: white;
 }
 
@@ -118,7 +162,7 @@ td {
     color: white;
 }
 
-/* class for the div's with each page's content */
+/* class for the divs with each page's content */
 
 .content {
     width: 1200px;
@@ -178,13 +222,18 @@ td {
     font-size: 0.9em;
 }
 
-    
+
 
 /* home.html */
 
-#home img {
-    height: 340px;
-    margin: 40px;
+#traffic_lights img {
+    height: 350px;
+}
+
+#megajump img {
+    height: 250px;
+    margin-left: -60px;
+    margin-top: 50px;
 }
 
 
@@ -207,7 +256,7 @@ td {
 
 /* letter-from-the-chairman.html */
 
-#chairman_letter {    
+#chairman_letter {
     width: 75%;
 }
 
