@@ -175,26 +175,24 @@ td {
 
 /* buttons */
 
-.light_blue_button {
+a.light_blue_button {
+    color: white;
     background-color: #00B0E1;
     padding: 10px 25px;
 }
 
-.light_blue_button a {
+a.light_blue_button {
     color: white;
     font-size: 18pt;
 }
 
-.light_blue_button a:hover {
+a.light_blue_button:hover {
     color: white;
-}
-
-.light_blue_button a:visited {
-    color: white;
-}
-
-.light_blue_button:hover {
     box-shadow: 0px 0px 15px #00B0E1;
+}
+
+a.light_blue_button:visited {
+    color: white;
 }
 
 /* logo and navbar at the top of each page */
@@ -254,6 +252,7 @@ td {
     width: 40%;
     height: 2px;
     background-color: #00B0E1;
+    margin-top: 10px;
 }
 
 
