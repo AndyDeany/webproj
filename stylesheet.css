@@ -334,6 +334,7 @@ a.light_blue_button:visited {
 #chairman_letter_preview {
     width: 100%;
     background-color: #F8F8F8;
+    margin-bottom: -35px;
 }
 
 #chairman_letter_preview img {
