@@ -280,6 +280,7 @@ a.light_blue_button:visited {
 #quick_jump li {
     display: inline-block;
     padding: 6px 13px;
+    margin: 3px;
     font-size: 20px;
 }
 
@@ -295,7 +296,7 @@ a.light_blue_button:visited {
     color: white;
 }
 
-#quick_jump li:hover {
+#quick_jump li:not(.big):hover {
     box-shadow: 0px 0px 15px #00B0E1;
 }
 
