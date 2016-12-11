@@ -266,7 +266,42 @@ a.light_blue_button:visited {
     text-align: left;
 }
 
-/* page menu */
+/* quick-jump menu */
+
+#quick_jump {
+    display: block;
+    float: right;
+}
+
+#quick_jump ul {
+    list-style: none;
+}
+
+#quick_jump li {
+    display: inline-block;
+    padding: 6px 13px;
+    font-size: 20px;
+}
+
+#quick_jump li:not(.big) {
+    background-color: #00B0E1;
+}
+
+#quick_jump a {
+    color: white;
+}
+
+#quick_jump a:visited {
+    color: white;
+}
+
+#quick_jump li:hover {
+    box-shadow: 0px 0px 15px #00B0E1;
+}
+
+
+
+
 
 #current { /*current page menu page*/
     color: #74B9FC;
