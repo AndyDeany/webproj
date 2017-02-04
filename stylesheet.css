@@ -128,18 +128,6 @@ h3 {
     margin-top: -20px;
 }
 
-/*h4 {
-    font-size: 1.45em;
-    text-align: left;
-    padding-left: 5px;
-}
-
-h5 {
-    font-size: 1.3em;
-    text-align: left;
-    padding-left: 5px;
-}*/
-
 p {
     text-align: left;
 }
@@ -152,10 +140,6 @@ td {
     text-align: left;
     padding: 10px;
 }
-
-.blue {
-    color: #337ABE;
-}*/
 
 /* miscellanous */
 
@@ -171,6 +155,25 @@ td {
 
 .arrow_list li span {
     margin-top: -5px;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 2% 0px;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+#back_to_top_line {
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: #00B0E1;
+    margin-top: 10px;
 }
 
 /* buttons */
@@ -195,7 +198,7 @@ a.light_blue_button:visited {
     color: white;
 }
 
-/* logo and navbar at the top of each page */
+/* header of each page */
 
 #logo {
     background-color: white;
@@ -218,7 +221,7 @@ a.light_blue_button:visited {
     font-weight: bold;
 }
 
-#active { /*current navbar page*/
+#active {   /*current navbar page*/
     background-color: #00B0E1;
     color: white;
 }
@@ -229,32 +232,12 @@ a.light_blue_button:visited {
 }
 
 #contact_number {
-    list-style:none;
+    list-style: none;
 }
 
 #contact_number div {
     float: right;
 }
-
-.title {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    padding: 2% 0px;
-}
-
-.title h2 {
-    text-align: center;
-}
-
-#back_to_top_line {
-    display: block;
-    width: 40%;
-    height: 2px;
-    background-color: #00B0E1;
-    margin-top: 10px;
-}
-
 
 /* class for the divs with each page's content */
 
@@ -266,7 +249,7 @@ a.light_blue_button:visited {
     text-align: left;
 }
 
-/* quick-jump menu */
+/* quick-jump menus */
 
 #quick_jump {
     display: block;
@@ -302,59 +285,7 @@ a.light_blue_button:visited {
 
 
 
-
-
-#current { /*current page menu page*/
-    color: #74B9FC;
-}
-
-#page_menu {
-    background-color: #2365A5;
-    color: white;
-    border-radius: 5px;
-    width: 20%;
-    margin-right: 30px;
-}
-
-#page_menu p {
-    color: #74B9FC;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-#page_menu ul {
-    background-color:#337ABE;
-    list-style: none;
-    font-size: 1em;
-    padding-left: 5px;
-}
-
-#page_menu li {
-    text-align: left;
-    padding: 10px 3px;
-    text-decoration: underline;
-}
-
-#page_menu a {
-    color: white;
-}
-
-#page_menu p a {
-    color: #74B9FC;
-}
-
-#page_menu a:hover {
-    color: #74B9FC;
-}
-
-#page_menu span {
-    color: #74B9FC;
-    font-size: 0.9em;
-}
-
-
-
-/* home.html */
+/* home */
 
 #traffic_lights img {
     height: 300px;
@@ -392,11 +323,11 @@ a.light_blue_button:visited {
     float: left;
 }
 
-/* about-us.html */
+/* about-us */
 
 #about-us {
     width: 75%;
-}/**/
+}
 
 .profile_text {
     width: 75%;
@@ -478,7 +409,7 @@ a.light_blue_button:visited {
     margin-bottom: -10px;
 }
 
-/* our-business.html */
+/* our-business */
 
 #the_market {
     background-image: url("http://hip-prop.co.uk/taXZn8QbML0joTXUidjK/images/okp4.png");
@@ -521,164 +452,3 @@ a.light_blue_button:visited {
 #news_stories p {
     font-size: 16pt;
 }
-
-/* investor-centre.html */
-
-#investor_centre {
-    width: 75%;
-}
-
-#investor_centre img {
-    width: 25%;
-    margin-left: 3%;
-}
-
-#investor_centre p {
-    width: 70%;
-    display: inline-block;
-}
-
-/* investor-relations.html */
-
-#information_memorandum {
-    width: 75%;
-}
-
-#information_memorandum h2 {
-    margin-bottom: 0px;
-}
-
-#contents {
-    list-style: none;
-    font-size: 1.5em;
-    margin: 0px;
-}
-
-#contents li {
-    text-align: left;
-    padding: 5px 0px;
-}
-
-#information_memorandum a {
-    text-decoration: underline;
-    color: #337ABE;
-}
-
-#information_memorandum table {
-    margin-bottom: 20px;
-}
-
-#information_memorandum td {
-    padding: 10px 30px;
-}
-
-#information_memorandum blockquote {
-    font-weight: bold;
-}
-
-#david_lloyd_img {
-    width: 40%;
-    float: right;
-    margin: 30px 0px 20px 40px;
-}
-
-.map_ul {
-    display: inline-block;
-    list-style: none;
-    font-size: 1.3em;
-    margin: 0px;
-}
-
-.map_ul li {
-    text-align: left;
-}
-
-#map_img {
-    float: left;
-    margin-left: 40px;
-}
-
-.target_requirements {
-    text-align: left;
-    font-size: 1.2em;
-    padding: 5px 0px;
-}
-
-.directorships {
-    list-style: none;
-    padding-left: 20%;
-}
-
-.directorships li {
-    text-align: left;
-    font-size: 1.2em;
-    padding: 5px 0px;
-}
-
-/* investor-presentations.html */
-
-#investor_presentations {
-    width: 50%;
-}
-
-#investor_presentations p {
-    font-size: 1em;
-    font-weight: bold;
-}
-
-#investor_presentations ul {
-    padding-left: 5px;
-}
-
-#investor_presentations li {
-    text-align: left;
-    list-style: none;
-    padding: 5px 0px;
-}
-
-#investor_presentations a {
-    color: #337ABE;
-}
-
-/* shareholders.html */
-
-#shareholders {
-    width: 75%;
-}
-
-/* aim-rule-26-compliance.html */
-
-#aim_compliance {
-    width: 75%;
-}
-
-#aim_compliance h2 {
-    margin-bottom: 0px;
-}
-
-#aim_compliance span {
-    font-size: 0.85em;
-}
-
-#aim_compliance li {
-    text-align:left;
-    padding: 5px 0px;
-}
-
-/* articles-of-association.html */
-
-#articles_of_association {
-    width: 75%;
-}
-
-#articles_of_association p {
-    font-size: 1em;
-}
-
-#articles_of_association a {
-    color: #337ABE;
-}
-
-
-
-/* contact-us.html */
