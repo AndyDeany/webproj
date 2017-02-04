@@ -132,8 +132,9 @@ p {
     text-align: left;
 }
 
-/*table {
+table {
     font-size: 1.2em;
+    margin-bottom: 50px;
 }
 
 td {
