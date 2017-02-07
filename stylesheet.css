@@ -453,3 +453,9 @@ a.light_blue_button:visited {
 #news_stories p {
     font-size: 16pt;
 }
+
+/* cariboo-gold-mines */
+
+#cariboo_logo {
+    padding-top: 20px;
+}
