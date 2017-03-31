@@ -454,6 +454,16 @@ a.light_blue_button:visited {
     font-size: 16pt;
 }
 
+#news_stories p a {
+    text-decoration: underline;
+    color: #1D4F79;
+}
+
+#news_stories p a:hover {
+    text-decoration: underline;
+    color: #00B0E1;
+}
+
 #news_stories blockquote {
     text-align: justify;
 }
