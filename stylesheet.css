@@ -436,7 +436,7 @@ a.light_blue_button:visited {
 }
 
 #news_stories {
-    width: 70%;
+    width: 100%;
     text-align: left;
 }
 
@@ -452,6 +452,10 @@ a.light_blue_button:visited {
 
 #news_stories p {
     font-size: 16pt;
+}
+
+#news_stories blockquote {
+    text-align: justify;
 }
 
 /* cariboo-gold-mines */
