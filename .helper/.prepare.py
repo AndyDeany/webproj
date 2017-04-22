@@ -6,7 +6,7 @@ for item in os.listdir(os.getcwd()):
         old = open(item, "r")
         new = open(item + ".tmp", "w")
         for line in old:
-            if not (("href=\"https://" in line) or ("href=\"#" in line)):
+            if not (("href=\"https://" in line) or ("href=\"http://" in line) or ("href=\"#" in line)):
                 line = line.replace("href=\"", "href=\"/")
             new.write(line.replace(".html", "/"))
         old.close()
