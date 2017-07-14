@@ -201,6 +201,42 @@ a.light_blue_button:visited {
 
 /* header of each page */
 
+#language-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+#language-switcher div {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0px 10px;
+    background-color: #8bd8ef;
+}
+
+#language-switcher p {
+    font-weight: bold;
+}
+
+#language-switcher img {
+    width: 30px;
+    padding-left: 10px;
+}
+
+div#current-language {
+    background-color: #00B0E1;
+    color: white;
+}
+
+#language-switcher a:hover {
+    color: white;
+}
+
+#language-switcher div:hover {
+    background-color: #00B0E1;
+}
+
 #logo {
     background-color: white;
     margin-right: 6%;
