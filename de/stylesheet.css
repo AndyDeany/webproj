@@ -1,0 +1,475 @@
+/* general */
+
+* {
+    font-family: "Muli", Arial, sans-serif;
+    text-align: center;
+    vertical-align: top;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+.white {
+    background-color: white;
+    width: 100%;
+}
+
+.white_t {
+    color: white;
+}
+
+.grey {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.light_blue {
+    background-color: #00B0E1;
+    width: 100%;
+}
+
+.light_blue_t {
+    color: #00B0E1;
+}
+
+.light_blue_border_left {
+    padding-left: 30px;
+    margin: 30px 0px 50px 0px;
+    border-left: 2px solid #00B0E1;
+}
+
+.light_blue_border_right {
+    padding-right: 30px;
+    margin: 30px 0px 50px 0px;
+    border-right: 2px solid #00B0E1;
+}
+
+.dark_blue {
+    background-color: #1D4F79;
+    width: 100%;
+}
+
+.dark_blue_t {
+    color: #1D4F79;
+}
+
+.huge {
+    font-size: 30pt;
+}
+
+.large {
+    font-size: 24pt;
+}
+
+.big {
+    font-size: 20pt;
+}
+
+.medium {
+    font-size: 16pt;
+}
+
+.small {
+    font-size: 13pt;
+}
+
+.container {
+    width: 80%;
+}
+
+.accompany_border_left {
+    margin-top: 30px;
+    padding-right: 30px;
+}
+
+.accompany_border_right {
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00B0E1;
+}
+
+a:visited:not(:hover) {
+    color: black;
+}
+
+div {
+    display: inline-block;
+    margin: auto;
+    /*border: 1px dashed black;*/
+}
+
+img {
+    display: inline-block;
+    margin: auto;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: left;
+}
+
+h3 {
+    font-weight: normal;
+    text-align: left;
+    margin-top: -20px;
+}
+
+p {
+    text-align: left;
+}
+
+table {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+/* miscellanous */
+
+.arrow_list {
+    list-style-image: url("http://hip-prop.co.uk/images/G05k.png")
+}
+
+.arrow_list li {
+    text-align: left;
+    color: #00B0E1;
+    font-size: 25pt;
+}
+
+.arrow_list li span {
+    margin-top: -5px;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding: 2% 0px;
+}
+
+.title h2 {
+    text-align: center;
+}
+
+#back_to_top_line {
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: #00B0E1;
+    margin-top: 10px;
+}
+
+/* buttons */
+
+a.light_blue_button {
+    color: white;
+    background-color: #00B0E1;
+    padding: 10px 25px;
+}
+
+a.light_blue_button {
+    color: white;
+    font-size: 18pt;
+}
+
+a.light_blue_button:hover {
+    color: white;
+    box-shadow: 0px 0px 15px #00B0E1;
+}
+
+a.light_blue_button:visited {
+    color: white;
+}
+
+/* header of each page */
+
+#logo {
+    background-color: white;
+    margin-right: 6%;
+    padding: 10px 0px;
+}
+
+#logo img {
+    height: 150px;
+}
+
+#navbar {
+    margin-top: 50px;
+}
+
+.navbar_elements {
+    display: inline-block;
+    padding: 6px 13px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#active {   /*current navbar page*/
+    background-color: #00B0E1;
+    color: white;
+}
+
+#active a:visited {
+    background-color: #337ABE;
+    color: white;
+}
+
+#contact_number {
+    list-style: none;
+}
+
+#contact_number div {
+    float: right;
+}
+
+/* class for the divs with each page's content */
+
+.content {
+    width: 1200px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    text-align: left;
+}
+
+/* quick-jump menus */
+
+#quick_jump {
+    display: block;
+    float: right;
+}
+
+#quick_jump ul {
+    list-style: none;
+}
+
+#quick_jump li {
+    display: inline-block;
+    padding: 6px 13px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+#quick_jump li:not(.big) {
+    background-color: #00B0E1;
+}
+
+#quick_jump a {
+    color: white;
+}
+
+#quick_jump a:visited {
+    color: white;
+}
+
+#quick_jump li:not(.big):hover {
+    box-shadow: 0px 0px 15px #00B0E1;
+}
+
+
+
+/* home */
+
+#traffic_lights img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#megajump img {
+    height: 200px;
+    margin-left: -60px;
+    margin-top: 50px;
+}
+
+#chairman_letter_preview {
+    width: 100%;
+    background-color: #F8F8F8;
+    margin-bottom: -35px;
+}
+
+#chairman_letter_preview img {
+    width: 45%;
+    float: left;
+}
+
+#chairman_letter_preview div.medium {
+    width: 45%;
+}
+
+#chairman_letter_preview p {
+    float: left;
+    width: 100%;
+}
+
+#chairman_letter_preview div.light_blue_button {
+    clear: left;
+    float: left;
+}
+
+/* about-us */
+
+#about-us {
+    width: 75%;
+}
+
+.profile_text {
+    width: 75%;
+}
+
+.profile_text h2 {
+    color: #1D4F79;
+    font-size: 25pt;
+}
+
+.profile_text h3 {
+    color: #00B0E1;
+    font-size: 20pt;
+}
+
+.profile_text p {
+    font-size: 17pt;
+}
+
+.profile_text .light_blue_border_right {
+    width: 45%;
+    float: left;
+    margin-top: 0px;
+}
+
+.profile_text .accompany_border_right {
+    width: 45%;
+    margin-top: 0px;
+}
+
+.profile_text .accompany_border_right p {
+    color: #00B0E1;
+    font-size: 15pt;
+}
+
+.profile_extra {
+    width: 15%;
+    margin-right: 30px;
+}
+
+.profile_extra img {
+    width: 100%;
+}
+
+.profile_extra a {
+    color: #00B0E1;
+}
+
+.profile_extra a:visited {
+    color: #00B0E1;
+}
+
+
+.profile_extra a img {
+    margin-top: 30px;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.profile_extra a:hover img {
+    box-shadow: 0px 0px 40px #00B0E1;
+}
+
+
+.profile_extra a p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin
+    color: #00B0E1;
+    font-size: 19pt;
+}
+
+#board_of_directors {
+    width: 75%;
+}
+
+#board_of_directors h3 {
+    margin-bottom: -10px;
+}
+
+/* our-business */
+
+#the_market {
+    background-image: url("http://hip-prop.co.uk/images/okp4.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#the_market div.white_t {
+    width: 45%;
+}
+
+#the_market span {
+    float: right;
+    margin-bottom: 30px;
+}
+
+/* latest-news */
+
+#news_dates {
+    width: 25%;
+    text-align: left;
+}
+
+#news_stories {
+    width: 100%;
+    text-align: left;
+}
+
+#news_stories h2 {
+    font-size: 30pt;
+    color: #1D4F79;
+}
+
+#news_stories h3 {
+    font-size: 25pt;
+    color: #00B0E1;
+}
+
+#news_stories p {
+    font-size: 16pt;
+}
+
+#news_stories p a {
+    text-decoration: underline;
+    color: #1D4F79;
+}
+
+#news_stories p a:hover {
+    text-decoration: underline;
+    color: #00B0E1;
+}
+
+#news_stories blockquote {
+    text-align: justify;
+}
+
+/* cariboo-gold-mines */
+
+#cariboo_logo {
+    padding-top: 20px;
+}
